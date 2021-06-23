@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "first_name": "Rem",
+        "last_name": "Josofovitz",
+        "email": "rjosofovitz0@google.ca"
+    },
+    {
+        "id": 2,
+        "first_name": "Cesar",
+        "last_name": "Fishbourne",
+        "email": "cfishbourne1@networksolutions.com"
+    },
+    {
+        "id": 3,
+        "first_name": "Garrott",
+        "last_name": "McLoney",
+        "email": "gmcloney2@foxnews.com"
+    },
+    {
+        "id": 4,
+        "first_name": "Jephthah",
+        "last_name": "Horrod",
+        "email": "jhorrod3@salon.com"
+    },
+    {
+        "id": 5,
+        "first_name": "Lucius",
+        "last_name": "Eates",
+        "email": "leates4@over-blog.com"
+    },
+    {
+        "id": 6,
+        "first_name": "Abe",
+        "last_name": "Adriano",
+        "email": "aadriano5@mapy.cz"
+    },
+    {
+        "id": 7,
+        "first_name": "Audrie",
+        "last_name": "Eltun",
+        "email": "aeltun6@bloglovin.com"
+    },
+    {
+        "id": 8,
+        "first_name": "Fan",
+        "last_name": "Scrauniage",
+        "email": "fscrauniage7@stanford.edu"
+    },
+    {
+        "id": 9,
+        "first_name": "Uriah",
+        "last_name": "Cordeux",
+        "email": "ucordeux8@nsw.gov.au"
+    },
+    {
+        "id": 10,
+        "first_name": "Edan",
+        "last_name": "McLeman",
+        "email": "emcleman9@ycombinator.com"
+    }
+]
