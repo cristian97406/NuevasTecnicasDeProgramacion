@@ -4,7 +4,7 @@ const express = require('express');
 const app = express()
 
 //Routes
-const { RouterIndex } = require('./routes/index2');
+const { RouterIndex } = require('./routes/index');
 
 app.use("/", RouterIndex)
 app.use("/deber-video", RouterIndex)
