@@ -1,8 +1,8 @@
-const { MongoConnection} = require('../lib/Mongo');
+const { MongoConnection } = require('../lib/Mongo');
 
 const COLLECTION = "clients"
 
-const findUsers = () => new Promise(async (resolve,reject)=>{
+const findUsers = () => new Promise(async (resolve, reject) => {
     try {
         const DB = await MongoConnection()
         const clients = DB.collection(COLLECTION)
@@ -13,6 +13,18 @@ const findUsers = () => new Promise(async (resolve,reject)=>{
     }
 })
 
+const createUser = (user) => new Promise(async (resolve, reject) => {
+    try {
+        const DB = await MongoConnection()
+        const clients = DB.collection(COLLECTION)
+        const result = await clients.insertOne(user)
+        resolve(result);
+    } catch (error) {
+        reject(error)
+    }
+})
+
 module.exports = {
     findUsers,
+    createUser,
 }
